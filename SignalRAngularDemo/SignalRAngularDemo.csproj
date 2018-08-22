@@ -20,6 +20,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -157,6 +159,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\controllers\testCtrl.js" />
+    <Content Include="app\controllers\componentCtrl.js" />
+    <Content Include="app\services\componentSvc.js" />
     <Content Include="app\services\widgetSvc.js" />
     <Content Include="app\app.js" />
     <Content Include="app\controllers\widgetCtrl.js" />

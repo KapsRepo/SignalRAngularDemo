@@ -30,7 +30,9 @@ namespace SignalRAngularDemo
             bundles.Add(new ScriptBundle("~/bundles/widgetApp").Include(
                 "~/app/app.js",
                 "~/app/services/widgetSvc.js",
-                "~/app/controllers/widgetCtrl.js"
+                "~/app/services/componentSvc.js",
+                "~/app/controllers/widgetCtrl.js",
+                "~/app/controllers/componentCtrl.js"
             ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
